@@ -21,9 +21,18 @@
     <ClCompile Include="Lambda.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="GrammarToImprove.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Lambda.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GrammarToImprove.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="header.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
