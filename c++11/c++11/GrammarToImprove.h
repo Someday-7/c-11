@@ -26,7 +26,10 @@ class GrammarToImprove
 public:
 	GrammarToImprove();
 	~GrammarToImprove();
+	//类型推导使用
 	void decltypeUsing();
+	//初始化列表
+	void initialUsing();
 private:
 
 };

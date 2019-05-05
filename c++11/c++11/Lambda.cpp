@@ -13,6 +13,7 @@ Lambda::~Lambda()
 }
 void Lambda::LambdaFunctionTest()
 {
+	std::cout << __FUNCTION__ << std::endl;
 	int para1 = 0, para2 = 2,tempValue = 0;
 	//1} 1）不捕获外部变量 2）参数为整形a 3）指定返回值类型为int
 	auto lambdaFunc1 = [](int a) -> int 

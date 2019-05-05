@@ -10,6 +10,7 @@ int main(int argc, char** argv)
 	//C++11一些语法改进
 	GrammarToImprove GrammarToImproveObj;
 	GrammarToImproveObj.decltypeUsing();
+	GrammarToImproveObj.initialUsing();
 	char in;
 	std::cin >> in;
 	return 0;
