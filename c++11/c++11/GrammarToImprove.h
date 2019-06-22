@@ -1,6 +1,8 @@
 #pragma once
 #include "header.h"
 #include <vector>
+#include <map>
+#include <set>
 template<class T>
 class FOO
 {
@@ -30,6 +32,8 @@ public:
 	void decltypeUsing();
 	//初始化列表
 	void initialUsing();
+	//基于范围的for循环
+	void forLoop();
 private:
 
 };

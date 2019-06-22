@@ -11,6 +11,7 @@ int main(int argc, char** argv)
 	GrammarToImprove GrammarToImproveObj;
 	GrammarToImproveObj.decltypeUsing();
 	GrammarToImproveObj.initialUsing();
+	GrammarToImproveObj.forLoop();
 	char in;
 	std::cin >> in;
 	return 0;
